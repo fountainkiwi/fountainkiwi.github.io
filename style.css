@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    width: 900px;
+    margin: 0 auto;
+    background-color: #1C1C1E;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 800px;
+    margin-top: 30px;
+}
+
+.stars{
+    height: 25px;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.left-column{
+    border: 1px solid white;
+    padding: 10px;
+    width: 200px;
+}
+
+.left-column li{
+    display: block;
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.left-column li a{
+    text-decoration: none;
+    color: #FAE500;
+}
+
+
+.left-column li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.center-column{
+    width: 50%;
+}
+
+.intro{
+    height: 400px;
+    width: 450px;
+    overflow: auto;
+    border: 1px solid white;
+}
+
+.intro-text{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.intro-text a{
+    color: #FAE500;
+    text-decoration: none;
+}
+
+.intro-text h3{
+    color: #FAE500;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.right-column{
+    width: 200px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.update-box{
+    width: 180px;
+    height: 200px;
+    margin-top: 3px;
+}
+
+.likes{
+    margin-top: 10px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.likes li{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.hug-gif{
+    padding-top: 10px;
+    width: 120px;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.construction-gif{
+    padding-top: 20px;
+}
